@@ -4,7 +4,7 @@
  * @returns {Number} - Sum of all Odd fibonacci numbers that are less than or equal to num
  */
 
- function sumFib(num) {
+ module.exports = function sumFib(num) {
 
     if (Math.sign(num) != 1 ) {
         return -1;
